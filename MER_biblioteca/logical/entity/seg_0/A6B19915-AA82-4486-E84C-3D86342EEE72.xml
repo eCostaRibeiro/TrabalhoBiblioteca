@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6B19915-AA82-4486-E84C-3D86342EEE72" name="preferencias">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>C39ABDDB-A937-9A05-FA82-8EB5F4A92854</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id usuario" id="DA93CE7C-CEB5-C202-0B5D-E72509B0227F">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>1238D9CF-B883-616C-FC22-0233F0585FF5</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<referedAttribute>9F91EE4A-0BB2-7339-4864-99E0F0DC9E04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="id genero" id="D05C762F-4E39-DFF8-076C-C54134BF4D95">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>F85DF0A4-E18F-F2FC-A8D7-B59D2964726E</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<referedAttribute>591ECE87-C8E9-0D4B-D65D-9BF6EDC7FA60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="114E620B-3110-DFAF-8367-8D071C4DD3AC" name="preferencias PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>9D4211B0-8310-EA39-9108-DF1C808E5BF7</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1238D9CF-B883-616C-FC22-0233F0585FF5,F85DF0A4-E18F-F2FC-A8D7-B59D2964726E</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

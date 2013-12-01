@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="livro_autor_FK" directorySegmentName="seg_0" id="CA2DC831-64F7-90B4-193E-093C352499E0">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>88905CCA-1FEA-B36C-6DEA-6EDA343CEF87</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<sourcePk>94136B48-2452-75FA-4F5E-5A260A0141F0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB5BA0A4-6683-4D28-51A2-9225F829547F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C1132CE0-34E1-95A2-F1FA-7AD9D2893820</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAA80EF9-EB12-5C96-B363-2A8E2E658CAD" name="livro">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:41:04 UTC</createdTime>
+<comment>Tabela livro&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos livros cadastrados</comment>
+<commentInRDBMS>Tabela livro&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos livros cadastrados</commentInRDBMS>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<schemaObject>941B285A-B1ED-1D40-0695-DA3F5101AD9B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_livro" id="CD06B9C4-939E-1471-3957-9EEBC8BCAD65">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:48:29 UTC</createdTime>
+<comment>campo referente a identificacao unica dos livros cadastrados</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo_livro" id="088BBA44-DEDD-8D11-FB14-C1CE85F4C1A7">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:48:29 UTC</createdTime>
+<comment>campo referente ao titulo dos livros cadastrados</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edicao" id="F0C0284C-24CE-4F3F-EF39-1FFFDADF27FC">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:48:29 UTC</createdTime>
+<comment>campo referente a edicao do livro cadastrado</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_edicao" id="9B92BB84-CAA2-3AF7-AC6D-163113AB2FB9">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:48:29 UTC</createdTime>
+<comment>campo referente a data de edicao do livro cadastrado</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISBN" id="0ED2BF05-3887-93CC-AC6E-4A696DFFE1E3">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:48:29 UTC</createdTime>
+<comment>campo referente ao identificador ISBN do livro cadastrado</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_autor" id="2C881E69-50C3-FF83-2026-A9BA282B8DB3">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:55:35 UTC</createdTime>
+<comment>campo que referencia a PK da tabela autor</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>31DFADEB-5CBB-E0A1-E871-4ED6FB0ED93B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88905CCA-1FEA-B36C-6DEA-6EDA343CEF87" referredColumn="31DFADEB-5CBB-E0A1-E871-4ED6FB0ED93B"/>
+</associations>
+</Column>
+<Column name="id_editora" id="5D1F94F2-24BC-C849-8872-BB3DDBC50A97">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:55:35 UTC</createdTime>
+<comment>campo que referencia a PK da tabela editora</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>ABBCFD7A-022F-00E6-B451-2C4A57483A23</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D335E9E-6012-EE5E-048D-D81D784A8CEE" referredColumn="ABBCFD7A-022F-00E6-B451-2C4A57483A23"/>
+</associations>
+</Column>
+<Column name="id_genero" id="B318F677-F668-DE0F-BCA2-BC2C12C3D19C">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:56:07 UTC</createdTime>
+<comment>campo que referencia a PK da tabela genero</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>CF97EB62-1BBC-F46A-0FAB-D461E144CE49</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74D6E761-1851-F2E2-A301-9016A7E7CE28" referredColumn="CF97EB62-1BBC-F46A-0FAB-D461E144CE49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D316A8B2-6908-F6FD-F485-6028C510917F" name="livro_PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:48:29 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD06B9C4-939E-1471-3957-9EEBC8BCAD65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8F61D08-1CA1-E54F-FA78-DF5B8C543816" name="livro_autor_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:57:55 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C881E69-50C3-FF83-2026-A9BA282B8DB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EB77EE9-3447-CD63-32E6-2962657654D7" name="livro_editora_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:57:55 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D1F94F2-24BC-C849-8872-BB3DDBC50A97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="425A69BC-E520-E2AD-9AD7-EE802833E690" name="livro_genero_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:57:55 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B318F677-F668-DE0F-BCA2-BC2C12C3D19C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

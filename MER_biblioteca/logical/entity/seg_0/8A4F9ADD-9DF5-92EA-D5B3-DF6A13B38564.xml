@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A4F9ADD-9DF5-92EA-D5B3-DF6A13B38564" name="usuario pessoa">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>Tabela usuario / Pessoa&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos usuarios cadastrados&lt;br/&gt;----Contem tambem informacoes relativas a pessoa do usuario</comment>
+<commentInRDBMS>Tabela usuario / Pessoa&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos usuarios cadastrados&lt;br/&gt;----Contem tambem informacoes relativas a pessoa do usuario</commentInRDBMS>
+<generatorID>30CFEA78-70AD-13C8-C0F7-0000DF2A28D3</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pessoa" id="9F91EE4A-0BB2-7339-4864-99E0F0DC9E04">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo de identificacao unica do usuario enquanto pessoa</comment>
+<generatorID>B6EF9703-5F5C-A403-A764-8D51382133C7</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="nome completo pessoa" id="091E31EB-0576-2FCE-5B09-AA2981D206BF">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente ao nome do usuario enquanto pessoa</comment>
+<generatorID>520853A6-B6C0-24BF-4E52-237768C749C0</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="cpf pessoa" id="6D2C188F-B235-7C7F-02C9-5C0D87E8FDFC">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente ao cpf do usuario enquanto pessoa</comment>
+<generatorID>CE8C6912-7DDB-FD5F-FBC9-E0F679F9C858</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+</Attribute>
+<Attribute name="rg pessoa" id="F7EBCFC0-B711-3687-2B44-B33091955E04">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente ao rg do usuario enquanto pessoa</comment>
+<generatorID>A55FF222-737C-57B3-E238-A46D0B974EB5</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+</Attribute>
+<Attribute name="endereco pessoa" id="53DC97A2-BB18-A42C-5617-F39BB087001D">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente ao endereco do usuario enquanto pessoa</comment>
+<generatorID>00DB88C4-BC36-FC02-CBA4-D981662975CA</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="fone pessoa" id="73716916-CF6E-77C1-7041-2529415275E0">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente ao telefone do usuario enquanto pessoa</comment>
+<generatorID>FC769BE8-3B7C-21EC-0790-7FBB9F20C8A9</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+</Attribute>
+<Attribute name="email pessoa" id="5F821D3D-3454-56C8-3D27-EBA44C0A79D5">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente ao email do usuario enquanto pessoa</comment>
+<generatorID>B74175A7-1EE8-9435-01A5-FC96B9F1F28F</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="data nascimento pessoa" id="007C0BF5-E54B-5FAB-FCDE-FBD34B49898A">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente a data de nascimento do usuario enquanto pessoa</comment>
+<generatorID>E43BEA6E-D160-F8AE-F762-44327E54A7F1</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="data cadastro usuario" id="D8D1DF1F-8915-CBFD-72D9-19283C5AA2D8">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente a data de cadastro do usuario</comment>
+<generatorID>38DC13EA-A06D-579E-C5B1-D24753F142D1</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="351911C3-3B85-A732-1CE0-E0F1EB8A8DED" name="usuario pessoa PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>9FB6BD13-C0E0-103C-0601-87877F130CF0</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>9F91EE4A-0BB2-7339-4864-99E0F0DC9E04</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

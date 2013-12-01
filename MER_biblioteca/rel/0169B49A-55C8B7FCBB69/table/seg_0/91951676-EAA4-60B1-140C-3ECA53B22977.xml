@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91951676-EAA4-60B1-140C-3ECA53B22977" name="bibliotecario_pessoa">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:17:06 UTC</createdTime>
+<comment>Tabela bibliotecario / Pessoa&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos bibliotecarios cadastrados&lt;br/&gt;----Contem tambem informacoes relativas a pessoa do bibliotecario</comment>
+<commentInRDBMS>Tabela bibliotecario / Pessoa&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos bibliotecarios cadastrados&lt;br/&gt;----Contem tambem informacoes relativas a pessoa do bibliotecario</commentInRDBMS>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<schemaObject>941B285A-B1ED-1D40-0695-DA3F5101AD9B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pessoa" id="C6D89C7A-02AC-6ACB-222F-8466B8CE784E">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo de identificacao unica do bibliotecario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_completo_pessoa" id="DD92C7A3-68CE-878E-C481-EEA4369B6068">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo referente ao nome completo do bibliotecario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_pessoa" id="0997A16C-AEE2-F52D-AB09-8B77F85A567E">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo referente ao CPF do bibliotecario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rg_pessoa" id="6E8CCD80-CFB7-4466-523B-1CA696226751">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo referente ao RG do bibliotecario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endrec_pessoa" id="D1FA478B-4303-4CAC-7592-9499F248E492">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo referente ao endereco do bibliotecario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fone_pessoa" id="B87CB802-5AC0-147B-BEE5-EC563B681A4B">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo referente ao telefone do bibliotecario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_pessoa" id="EF4283DF-E672-D96E-12EF-5E49D85D7EFC">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo referente ao email do bibliotecario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento_pessoa" id="4DBF62BD-D45B-AB31-F7BD-C17874C4428F">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo referente a data de nascimento do bibliotecario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_admissao_bibliotecario" id="630629BE-23C0-009E-BC21-372D60C2808A">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo referente a data de admissao do bibliotecario</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="crb_bibliotecario" id="47245F13-4501-C864-0175-F99F88E995A2">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo referente ao CRB (Cadastro Regional de Biblioteconomia) do bibliotecario</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario_bibliotecario" id="3D8E468A-509E-AB4E-7D3A-0C087CC898E2">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:25:01 UTC</createdTime>
+<comment>campo referente ao salario do bibliotecario</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AF30E4D-9236-DC73-6695-8CFA6354B605" name="bibliotecario_PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:35:21 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6D89C7A-02AC-6ACB-222F-8466B8CE784E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

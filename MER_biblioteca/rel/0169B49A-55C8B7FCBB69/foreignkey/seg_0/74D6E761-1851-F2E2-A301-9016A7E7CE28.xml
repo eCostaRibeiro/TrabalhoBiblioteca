@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="74D6E761-1851-F2E2-A301-9016A7E7CE28" name="livro_genero_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 21:57:55 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<containerWithKeyObject>FAA80EF9-EB12-5C96-B363-2A8E2E658CAD</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>425A69BC-E520-E2AD-9AD7-EE802833E690</localFKIndex>
+<keyObject>970EB8F2-FD7C-9C22-629C-1F9EF134854F</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

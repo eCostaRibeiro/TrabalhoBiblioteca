@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="movimentacao_usuario_pessoa_FK" directorySegmentName="seg_0" id="F2662171-C21E-848F-CF1B-3E5B37D1E98C">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>584EFA96-F91E-EA60-EBFC-E288D0D9328F</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<sourcePk>351911C3-3B85-A732-1CE0-E0F1EB8A8DED</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8A4F9ADD-9DF5-92EA-D5B3-DF6A13B38564</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90900679-C102-FD4A-2EEB-604D3E97FDDD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

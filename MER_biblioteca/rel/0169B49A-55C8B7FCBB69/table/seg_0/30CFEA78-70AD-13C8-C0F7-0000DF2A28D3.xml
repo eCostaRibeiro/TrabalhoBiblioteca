@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30CFEA78-70AD-13C8-C0F7-0000DF2A28D3" name="usuario_pessoa">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:37:51 UTC</createdTime>
+<comment>Tabela usuario / Pessoa&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos usuarios cadastrados&lt;br/&gt;----Contem tambem informacoes relativas a pessoa do usuario</comment>
+<commentInRDBMS>Tabela usuario / Pessoa&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos usuarios cadastrados&lt;br/&gt;----Contem tambem informacoes relativas a pessoa do usuario</commentInRDBMS>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<schemaObject>941B285A-B1ED-1D40-0695-DA3F5101AD9B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pessoa" id="B6EF9703-5F5C-A403-A764-8D51382133C7">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:43:10 UTC</createdTime>
+<comment>campo de identificacao unica do usuario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_completo_pessoa" id="520853A6-B6C0-24BF-4E52-237768C749C0">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:43:10 UTC</createdTime>
+<comment>campo referente ao nome do usuario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_pessoa" id="CE8C6912-7DDB-FD5F-FBC9-E0F679F9C858">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:43:10 UTC</createdTime>
+<comment>campo referente ao cpf do usuario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rg_pessoa" id="A55FF222-737C-57B3-E238-A46D0B974EB5">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:43:10 UTC</createdTime>
+<comment>campo referente ao rg do usuario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco_pessoa" id="00DB88C4-BC36-FC02-CBA4-D981662975CA">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:43:10 UTC</createdTime>
+<comment>campo referente ao endereco do usuario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fone_pessoa" id="FC769BE8-3B7C-21EC-0790-7FBB9F20C8A9">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:43:10 UTC</createdTime>
+<comment>campo referente ao telefone do usuario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_pessoa" id="B74175A7-1EE8-9435-01A5-FC96B9F1F28F">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:43:10 UTC</createdTime>
+<comment>campo referente ao email do usuario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento_pessoa" id="E43BEA6E-D160-F8AE-F762-44327E54A7F1">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:43:10 UTC</createdTime>
+<comment>campo referente a data de nascimento do usuario enquanto pessoa</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_cadastro_usuario" id="38DC13EA-A06D-579E-C5B1-D24753F142D1">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:43:10 UTC</createdTime>
+<comment>campo referente a data de cadastro do usuario</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FB6BD13-C0E0-103C-0601-87877F130CF0" name="usuario_pessoa_PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:45:22 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6EF9703-5F5C-A403-A764-8D51382133C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reservaLivro_volume_FK" directorySegmentName="seg_0" id="48D734F1-2C1E-2846-CF04-BE9B305F583A">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>C4E77FC7-23FE-9CB5-48B4-5EED1C6266FF</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<sourcePk>B1B429A1-57DB-7DB8-29B6-9934D03E61A9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BF8325A-1EF7-D1BB-8214-F25F51353787</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>739381E3-7B15-FFC2-0100-40FDDEA4F4C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="FB5BA0A4-6683-4D28-51A2-9225F829547F" name="autor" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E26E0A34-E609-6E91-406C-BF6E6E7D54C4" name="bibliotecario pessoa" seqName="seg_0"/>
+   <object objectType="Entity" objectID="641876F9-8E1E-EB5A-9DA7-FABE8D0D555D" name="editora" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BB4DF085-2F9D-EE52-83E0-34262F135527" name="genero" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C1132CE0-34E1-95A2-F1FA-7AD9D2893820" name="livro" seqName="seg_0"/>
+   <object objectType="Entity" objectID="90900679-C102-FD4A-2EEB-604D3E97FDDD" name="movimentacao" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A6B19915-AA82-4486-E84C-3D86342EEE72" name="preferencias" seqName="seg_0"/>
+   <object objectType="Entity" objectID="739381E3-7B15-FFC2-0100-40FDDEA4F4C6" name="reservaLivro" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8A4F9ADD-9DF5-92EA-D5B3-DF6A13B38564" name="usuario pessoa" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0BF8325A-1EF7-D1BB-8214-F25F51353787" name="volume" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F85DF0A4-E18F-F2FC-A8D7-B59D2964726E" name="TABLE_9_genero_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CA2DC831-64F7-90B4-193E-093C352499E0" name="livro_autor_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="983AFE13-A2D5-D2D5-D4AB-EEBDA3BC07D2" name="livro_editora_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F6CC5AA5-1C99-01F6-8AFF-D89B7EC0CCDE" name="livro_genero_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F2662171-C21E-848F-CF1B-3E5B37D1E98C" name="movimentacao_usuario_pessoa_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E795E4C4-3CD7-F899-BC0C-31855B24A474" name="movimentacao_volume_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1238D9CF-B883-616C-FC22-0233F0585FF5" name="preferencias_usuario_pessoa_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="26E00D12-F5DD-E66F-348D-0E5798DC3676" name="reservaLivro_usuario_pessoa_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="48D734F1-2C1E-2846-CF04-BE9B305F583A" name="reservaLivro_volume_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="69271226-28EA-5E61-13CA-5715ACF10EE9" name="volume_livro_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

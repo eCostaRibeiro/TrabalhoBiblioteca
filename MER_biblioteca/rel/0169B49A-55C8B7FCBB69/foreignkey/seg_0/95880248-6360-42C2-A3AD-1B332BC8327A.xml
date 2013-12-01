@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="95880248-6360-42C2-A3AD-1B332BC8327A" name="movimentacao_volume_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:04:12 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<containerWithKeyObject>767AA064-E970-923B-3710-6E96379106DC</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>E9E2B6C1-95FF-C1D7-51EF-301AD0B01D8A</localFKIndex>
+<keyObject>48E213E1-62B8-362D-42FD-CBC4EF7C1ED6</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

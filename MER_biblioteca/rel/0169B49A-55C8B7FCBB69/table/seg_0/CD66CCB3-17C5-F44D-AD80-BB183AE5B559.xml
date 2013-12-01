@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD66CCB3-17C5-F44D-AD80-BB183AE5B559" name="reservaLivro">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 12:52:37 UTC</createdTime>
+<comment>Tabela reserva&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos usuarios  e volumes de livros durante um pedido de reserva</comment>
+<commentInRDBMS>Tabela reserva&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos usuarios  e volumes de livros durante um pedido de reserva</commentInRDBMS>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<schemaObject>941B285A-B1ED-1D40-0695-DA3F5101AD9B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="518B6EF3-8DF9-A7EA-F235-FB1EFF0210FF">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 12:53:52 UTC</createdTime>
+<comment>campo que referencia a identificacao unica do usuario durante uma reserva</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>B6EF9703-5F5C-A403-A764-8D51382133C7</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AE3FF72-BE9B-DE40-B1C4-43D0D5484475" referredColumn="B6EF9703-5F5C-A403-A764-8D51382133C7"/>
+</associations>
+</Column>
+<Column name="id_volume" id="C659A830-A405-760E-9929-764591A741B1">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 12:53:52 UTC</createdTime>
+<comment>campo que referencia a identificacao unica do volume de um livo durante uma reserva</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>56F307CB-7185-676F-D633-03D4B6ED696A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4E77FC7-23FE-9CB5-48B4-5EED1C6266FF" referredColumn="56F307CB-7185-676F-D633-03D4B6ED696A"/>
+</associations>
+</Column>
+<Column name="id_reserva" id="E33E927C-7C9D-6041-0E20-69A31DA3B359">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 12:53:52 UTC</createdTime>
+<comment>campo que realiza a identificacao unica de uma reserva de livro</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F858B3A3-5DD6-78CF-A3C2-815A43BB401B" name="reservaLivro_PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 12:53:52 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E33E927C-7C9D-6041-0E20-69A31DA3B359"/>
+<colUsage columnID="518B6EF3-8DF9-A7EA-F235-FB1EFF0210FF"/>
+<colUsage columnID="C659A830-A405-760E-9929-764591A741B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8005FE37-7714-7BCF-22B4-D482572F681F" name="reservaLivro_usuario_pessoa_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 12:55:14 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="518B6EF3-8DF9-A7EA-F235-FB1EFF0210FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="646EDFE2-E958-EC43-89C8-8508A4332264" name="reservaLivro_volume_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 12:55:56 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C659A830-A405-760E-9929-764591A741B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C39ABDDB-A937-9A05-FA82-8EB5F4A92854" name="preferencias">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:43:18 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<schemaObject>941B285A-B1ED-1D40-0695-DA3F5101AD9B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="5F162F7F-C92F-D292-7D68-E66D485F973C">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:45:04 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>B6EF9703-5F5C-A403-A764-8D51382133C7</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64852597-A636-DA00-FD6F-D592D71CB56E" referredColumn="B6EF9703-5F5C-A403-A764-8D51382133C7"/>
+</associations>
+</Column>
+<Column name="id_genero" id="7B9F34CA-D473-4B13-F6EA-1F54A27A6C97">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:45:04 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>CF97EB62-1BBC-F46A-0FAB-D461E144CE49</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26CFE386-2108-AA8F-5817-FAE1303248F8" referredColumn="CF97EB62-1BBC-F46A-0FAB-D461E144CE49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D4211B0-8310-EA39-9108-DF1C808E5BF7" name="preferencias_PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:45:04 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F162F7F-C92F-D292-7D68-E66D485F973C"/>
+<colUsage columnID="7B9F34CA-D473-4B13-F6EA-1F54A27A6C97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A111C44-90E0-9B00-5DEE-8AA2E729CAF8" name="TABLE_9_genero_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:45:04 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B9F34CA-D473-4B13-F6EA-1F54A27A6C97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2FDE2DF-196F-DB7D-5DDB-AB3487775126" name="preferencias_usuario_pessoa_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 22:45:45 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F162F7F-C92F-D292-7D68-E66D485F973C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

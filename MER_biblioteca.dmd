@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER_biblioteca" id="0418171C-5C25-143F-DFF1-976A47EE8CB9" version="3.5">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:08:56 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0418171C-5C25-143F-DFF1-976A47EE8CB9</designId>
+</OSDM_Design>

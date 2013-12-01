@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA747AE2-1C2C-7C45-BC7F-F4B1169B63F5" name="genero">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:51:17 UTC</createdTime>
+<comment>Tabela genero&lt;br/&gt;----Destinada a armazenar as informacoes dos generos cadastrados</comment>
+<commentInRDBMS>Tabela genero&lt;br/&gt;----Destinada a armazenar as informacoes dos generos cadastrados</commentInRDBMS>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<schemaObject>941B285A-B1ED-1D40-0695-DA3F5101AD9B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_genero" id="CF97EB62-1BBC-F46A-0FAB-D461E144CE49">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:53:21 UTC</createdTime>
+<comment>campo referente a identificacao unica dos generos cadastrados</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_genero" id="7D8FE0B3-5013-CB8D-7E21-5BB75D1A342A">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:56:11 UTC</createdTime>
+<comment>campo referente a descricao (nome) de cada genero cadastrado</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="definicao_genero" id="49800279-938D-DF68-EBAF-BDE086559886">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 12:09:35 UTC</createdTime>
+<comment>campo referente a definicao descritiva de cada genero cadastrado</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="970EB8F2-FD7C-9C22-629C-1F9EF134854F" name="genero_PK">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:53:21 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF97EB62-1BBC-F46A-0FAB-D461E144CE49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

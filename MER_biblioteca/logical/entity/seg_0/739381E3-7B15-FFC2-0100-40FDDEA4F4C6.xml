@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="739381E3-7B15-FFC2-0100-40FDDEA4F4C6" name="reservaLivro">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>Tabela reserva&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos usuarios  e volumes de livros durante um pedido de reserva</comment>
+<commentInRDBMS>Tabela reserva&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos usuarios  e volumes de livros durante um pedido de reserva</commentInRDBMS>
+<generatorID>CD66CCB3-17C5-F44D-AD80-BB183AE5B559</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id usuario" id="7356A6F4-B888-C4D8-BF8A-F5B72AB3AF68">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo que referencia a identificacao unica do usuario durante uma reserva</comment>
+<generatorID>26E00D12-F5DD-E66F-348D-0E5798DC3676</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<referedAttribute>9F91EE4A-0BB2-7339-4864-99E0F0DC9E04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="id volume" id="C4350014-5601-6C11-0737-668914233BF5">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo que referencia a identificacao unica do volume de um livo durante uma reserva</comment>
+<generatorID>48D734F1-2C1E-2846-CF04-BE9B305F583A</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<referedAttribute>0FAF9AF6-7A1B-39D4-EEFE-9147084DED2E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="id reserva" id="F7017CD8-60C1-9C69-FA82-1E53A726E5EB">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo que realiza a identificacao unica de uma reserva de livro</comment>
+<generatorID>E33E927C-7C9D-6041-0E20-69A31DA3B359</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58B406E5-6310-FBC9-A7C2-49D652388905" name="reservaLivro PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>F858B3A3-5DD6-78CF-A3C2-815A43BB401B</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F7017CD8-60C1-9C69-FA82-1E53A726E5EB,26E00D12-F5DD-E66F-348D-0E5798DC3676,48D734F1-2C1E-2846-CF04-BE9B305F583A</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

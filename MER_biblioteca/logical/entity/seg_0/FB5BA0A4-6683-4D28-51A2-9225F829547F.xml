@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB5BA0A4-6683-4D28-51A2-9225F829547F" name="autor">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>Tabela autor&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes a autores</comment>
+<commentInRDBMS>Tabela autor&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes a autores</commentInRDBMS>
+<generatorID>5F6E5AA6-7F20-3301-E9C3-6947BCB7EE2E</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id autor" id="CDF43509-7A4C-BA73-78C2-F6099AEE0E1D">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo correspondente ao ID do autor</comment>
+<generatorID>31DFADEB-5CBB-E0A1-E871-4ED6FB0ED93B</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="nome autor" id="4ED27F1C-800E-1D7B-A657-45CB03EFBBB1">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>Campo referente ao nome do autor</comment>
+<generatorID>4640E18A-2305-EBC9-8CDE-14662B4C7D00</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94136B48-2452-75FA-4F5E-5A260A0141F0" name="autor PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>5C02ABCD-8014-B0BB-B548-C7F2F95E2ABA</generatorID>
+<notes>autor_pk é a chave primária da tabela Autor</notes>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>CDF43509-7A4C-BA73-78C2-F6099AEE0E1D</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

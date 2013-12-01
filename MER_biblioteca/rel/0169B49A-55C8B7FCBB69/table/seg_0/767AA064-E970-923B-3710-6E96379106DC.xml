@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="767AA064-E970-923B-3710-6E96379106DC" name="movimentacao">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 12:59:26 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<schemaObject>941B285A-B1ED-1D40-0695-DA3F5101AD9B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="295AC695-0F8A-1C7C-933F-C6AA42704350">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:03:43 UTC</createdTime>
+<comment>campo que referencia a identificacao unica de um usuario no movimentar o volume de um livro</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>B6EF9703-5F5C-A403-A764-8D51382133C7</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="584EFA96-F91E-EA60-EBFC-E288D0D9328F" referredColumn="B6EF9703-5F5C-A403-A764-8D51382133C7"/>
+</associations>
+</Column>
+<Column name="id_volume" id="DB19B282-B022-309C-2C32-7060C6F828AF">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:03:43 UTC</createdTime>
+<comment>campo que referencia a identificacao unica de um volume de um livro a ser movimentado</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>56F307CB-7185-676F-D633-03D4B6ED696A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95880248-6360-42C2-A3AD-1B332BC8327A" referredColumn="56F307CB-7185-676F-D633-03D4B6ED696A"/>
+</associations>
+</Column>
+<Column name="id_movimentacao" id="77366DEB-CFAF-EF77-766E-132328EE4637">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:03:43 UTC</createdTime>
+<comment>campo de identificacao unica de um movimento de volume de livro</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB457D4D-F783-636F-513E-9B7AC46B8555" name="movimentacao_PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:03:43 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77366DEB-CFAF-EF77-766E-132328EE4637"/>
+<colUsage columnID="295AC695-0F8A-1C7C-933F-C6AA42704350"/>
+<colUsage columnID="DB19B282-B022-309C-2C32-7060C6F828AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAD68936-4471-64FE-D7B4-AF446349C901" name="movimentacao_usuario_pessoa_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:04:12 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="295AC695-0F8A-1C7C-933F-C6AA42704350"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9E2B6C1-95FF-C1D7-51EF-301AD0B01D8A" name="movimentacao_volume_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:04:12 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB19B282-B022-309C-2C32-7060C6F828AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

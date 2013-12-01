@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="biblioteca" directorySegmentName="seg_0" id="941B285A-B1ED-1D40-0695-DA3F5101AD9B">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:13:03 UTC</createdTime>
+<comment>Esquema Biblioteca&lt;br/&gt;----- armazena todas as tabelas referentes a implementacao do sistema de gestao de biblioteca</comment>
+<commentInRDBMS>Esquema Biblioteca&lt;br/&gt;----- armazena todas as tabelas referentes a implementacao do sistema de gestao de biblioteca</commentInRDBMS>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+</SchemaObject>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F6E5AA6-7F20-3301-E9C3-6947BCB7EE2E" name="autor">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:13:30 UTC</createdTime>
+<comment>Tabela autor&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes a autores</comment>
+<commentInRDBMS>Tabela autor&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes a autores</commentInRDBMS>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<schemaObject>941B285A-B1ED-1D40-0695-DA3F5101AD9B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_autor" id="31DFADEB-5CBB-E0A1-E871-4ED6FB0ED93B">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:16:09 UTC</createdTime>
+<comment>campo correspondente ao ID do autor</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_autor" id="4640E18A-2305-EBC9-8CDE-14662B4C7D00">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:16:09 UTC</createdTime>
+<comment>Campo referente ao nome do autor</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C02ABCD-8014-B0BB-B548-C7F2F95E2ABA" name="autor_PK">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:16:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<notes>autor_pk é a chave primária da tabela Autor</notes>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31DFADEB-5CBB-E0A1-E871-4ED6FB0ED93B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

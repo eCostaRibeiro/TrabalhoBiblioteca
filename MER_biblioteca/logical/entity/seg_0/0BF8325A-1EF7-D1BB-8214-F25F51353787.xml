@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BF8325A-1EF7-D1BB-8214-F25F51353787" name="volume">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>Tabela volume&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos volumes de cada livro cadastrado</comment>
+<commentInRDBMS>Tabela volume&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos volumes de cada livro cadastrado</commentInRDBMS>
+<generatorID>4E3ED6D7-0DDC-EB84-DDF4-542B7866E020</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id livro" id="BADC827E-0B37-FDC0-0BE8-A420CF244E8C">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo que referencia identificacao unica de um livro</comment>
+<generatorID>69271226-28EA-5E61-13CA-5715ACF10EE9</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<referedAttribute>3591BD0C-D19A-27A8-B34C-847F2CC4DE67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="id volume" id="0FAF9AF6-7A1B-39D4-EEFE-9147084DED2E">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo de identificacao unica de volumes de livros</comment>
+<generatorID>56F307CB-7185-676F-D633-03D4B6ED696A</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="conservacao volume" id="F26EC221-66E0-69DC-A22C-D2C92D84FA5E">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo relativo ao estado de conservacao de um volume</comment>
+<generatorID>6448236A-0C98-2CB9-FD49-D03BEDA90ED7</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1B429A1-57DB-7DB8-29B6-9934D03E61A9" name="volume PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>48E213E1-62B8-362D-42FD-CBC4EF7C1ED6</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0FAF9AF6-7A1B-39D4-EEFE-9147084DED2E</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

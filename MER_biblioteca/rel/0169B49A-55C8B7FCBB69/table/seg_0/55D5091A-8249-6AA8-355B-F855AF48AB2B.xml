@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55D5091A-8249-6AA8-355B-F855AF48AB2B" name="editora">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:19:02 UTC</createdTime>
+<comment>Tabela editora&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes a editoras</comment>
+<commentInRDBMS>Tabela editora&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes a editoras</commentInRDBMS>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<schemaObject>941B285A-B1ED-1D40-0695-DA3F5101AD9B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_editora" id="ABBCFD7A-022F-00E6-B451-2C4A57483A23">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:20:17 UTC</createdTime>
+<comment>campo referente a identificacao unica das editoras cadastradas</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_editora" id="83B427F1-EEDF-2F0B-FD45-9C1DDDB6D5A0">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:26:16 UTC</createdTime>
+<comment>campo referente ao nome das editoras cadastradas</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj_editora" id="C157906B-5042-BB7C-99C4-0B79FBDB8BFC">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:26:16 UTC</createdTime>
+<comment>campo referente ao numero do CNPJ das editoras cadastradas</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco_editora" id="A0293859-D0A8-ED78-3162-B31FE1DABB92">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:26:42 UTC</createdTime>
+<comment>campo referente ao endereco das editoras cadastradas</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="site_editora" id="5722EEB8-9D2B-300C-A590-E7780F03B6C1">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:29:07 UTC</createdTime>
+<comment>campo referente ao endereco de site das editoras cadastradas</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_editora" id="0914C13A-0FEB-5CAF-1028-DE6FF863E148">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:29:07 UTC</createdTime>
+<comment>campo refenrente ao endereco eletronico das editoras cadastradas</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fone_editora" id="B17F0FC8-95C8-A653-4535-6258C6282DF0">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:30:03 UTC</createdTime>
+<comment>campo referente ao telefone das editoras cadastradas</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacoes" id="4661B34B-7B05-9192-219C-A8E261BEA1E0">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:32:19 UTC</createdTime>
+<comment>campo referente as observacoes das editoras cadastradas</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26F71F32-F908-B663-3C3A-35C65409A7EC" name="editora_PK">
+<createdBy>Home</createdBy>
+<createdTime>2013-11-29 11:20:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABBCFD7A-022F-00E6-B451-2C4A57483A23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

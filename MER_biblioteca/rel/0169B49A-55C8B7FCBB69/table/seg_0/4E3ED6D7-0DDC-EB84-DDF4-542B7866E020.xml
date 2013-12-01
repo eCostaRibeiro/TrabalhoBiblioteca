@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E3ED6D7-0DDC-EB84-DDF4-542B7866E020" name="volume">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-29 23:16:23 UTC</createdTime>
+<comment>Tabela volume&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos volumes de cada livro cadastrado</comment>
+<commentInRDBMS>Tabela volume&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos volumes de cada livro cadastrado</commentInRDBMS>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<schemaObject>941B285A-B1ED-1D40-0695-DA3F5101AD9B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_livro" id="1CAC0811-0F0F-A982-CD22-4CE2FB287684">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-30 00:10:03 UTC</createdTime>
+<comment>campo que referencia identificacao unica de um livro</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>CD06B9C4-939E-1471-3957-9EEBC8BCAD65</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C8488F4-B464-C51E-0B5F-F5CE3EFFDF3B" referredColumn="CD06B9C4-939E-1471-3957-9EEBC8BCAD65"/>
+</associations>
+</Column>
+<Column name="id_volume" id="56F307CB-7185-676F-D633-03D4B6ED696A">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-30 00:10:03 UTC</createdTime>
+<comment>campo de identificacao unica de volumes de livros</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="conservacao_volume" id="6448236A-0C98-2CB9-FD49-D03BEDA90ED7">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 12:49:54 UTC</createdTime>
+<comment>campo relativo ao estado de conservacao de um volume</comment>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48E213E1-62B8-362D-42FD-CBC4EF7C1ED6" name="volume_PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-11-30 00:10:03 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56F307CB-7185-676F-D633-03D4B6ED696A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69E77A8B-6107-C9CB-C507-3B7701047A64" name="volume_livro_FK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 12:50:07 UTC</createdTime>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CAC0811-0F0F-A982-CD22-4CE2FB287684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

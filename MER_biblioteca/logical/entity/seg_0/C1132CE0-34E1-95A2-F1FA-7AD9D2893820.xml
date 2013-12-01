@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1132CE0-34E1-95A2-F1FA-7AD9D2893820" name="livro">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>Tabela livro&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos livros cadastrados</comment>
+<commentInRDBMS>Tabela livro&lt;br/&gt;----Destinada a armazenar as inforamcoes referentes aos livros cadastrados</commentInRDBMS>
+<generatorID>FAA80EF9-EB12-5C96-B363-2A8E2E658CAD</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id livro" id="3591BD0C-D19A-27A8-B34C-847F2CC4DE67">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente a identificacao unica dos livros cadastrados</comment>
+<generatorID>CD06B9C4-939E-1471-3957-9EEBC8BCAD65</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="titulo livro" id="9FAAA4EF-F4CE-0C85-4DDE-D32C860FA8E7">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente ao titulo dos livros cadastrados</comment>
+<generatorID>088BBA44-DEDD-8D11-FB14-C1CE85F4C1A7</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="edicao" id="42C74B9D-48F2-8A29-6C50-2C8820C3DBC7">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente a edicao do livro cadastrado</comment>
+<generatorID>F0C0284C-24CE-4F3F-EF39-1FFFDADF27FC</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+</Attribute>
+<Attribute name="data edicao" id="73E68424-592E-6E91-5AC8-CE8AB4B46801">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente a data de edicao do livro cadastrado</comment>
+<generatorID>9B92BB84-CAA2-3AF7-AC6D-163113AB2FB9</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="ISBN" id="AC9CB390-EC83-A843-752A-3C78434ABE93">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo referente ao identificador ISBN do livro cadastrado</comment>
+<generatorID>0ED2BF05-3887-93CC-AC6E-4A696DFFE1E3</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+</Attribute>
+<Attribute name="id autor" id="C94CB645-F35A-BB75-973E-EC37FE500DEA">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo que referencia a PK da tabela autor</comment>
+<generatorID>CA2DC831-64F7-90B4-193E-093C352499E0</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<referedAttribute>CDF43509-7A4C-BA73-78C2-F6099AEE0E1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="id editora" id="4BD198D8-1CD6-C895-A500-566550AB2C7F">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo que referencia a PK da tabela editora</comment>
+<generatorID>983AFE13-A2D5-D2D5-D4AB-EEBDA3BC07D2</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<referedAttribute>9356F265-B52E-8B49-6FBA-75169DF0D449</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="id genero" id="67A68D98-F59D-BBD4-97C7-2757A37466D4">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<comment>campo que referencia a PK da tabela genero</comment>
+<generatorID>F6CC5AA5-1C99-01F6-8AFF-D89B7EC0CCDE</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<referedAttribute>591ECE87-C8E9-0D4B-D65D-9BF6EDC7FA60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10243B6F-0ED6-0EC2-40F4-8D9F385CD230" name="livro PK">
+<createdBy>Stwuart</createdBy>
+<createdTime>2013-12-01 13:06:56 UTC</createdTime>
+<generatorID>D316A8B2-6908-F6FD-F485-6028C510917F</generatorID>
+<ownerDesignName>MER_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="0169B49A-E456-913E-E3F0-55C8B7FCBB69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3591BD0C-D19A-27A8-B34C-847F2CC4DE67</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

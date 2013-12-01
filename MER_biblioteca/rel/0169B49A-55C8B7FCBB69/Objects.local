@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="941B285A-B1ED-1D40-0695-DA3F5101AD9B" name="biblioteca" seqName="seg_0"/>
+   <object objectType="Table" objectID="5F6E5AA6-7F20-3301-E9C3-6947BCB7EE2E" name="autor" seqName="seg_0"/>
+   <object objectType="Table" objectID="91951676-EAA4-60B1-140C-3ECA53B22977" name="bibliotecario_pessoa" seqName="seg_0"/>
+   <object objectType="Table" objectID="55D5091A-8249-6AA8-355B-F855AF48AB2B" name="editora" seqName="seg_0"/>
+   <object objectType="Table" objectID="BA747AE2-1C2C-7C45-BC7F-F4B1169B63F5" name="genero" seqName="seg_0"/>
+   <object objectType="Table" objectID="FAA80EF9-EB12-5C96-B363-2A8E2E658CAD" name="livro" seqName="seg_0"/>
+   <object objectType="Table" objectID="767AA064-E970-923B-3710-6E96379106DC" name="movimentacao" seqName="seg_0"/>
+   <object objectType="Table" objectID="C39ABDDB-A937-9A05-FA82-8EB5F4A92854" name="preferencias" seqName="seg_0"/>
+   <object objectType="Table" objectID="CD66CCB3-17C5-F44D-AD80-BB183AE5B559" name="reservaLivro" seqName="seg_0"/>
+   <object objectType="Table" objectID="30CFEA78-70AD-13C8-C0F7-0000DF2A28D3" name="usuario_pessoa" seqName="seg_0"/>
+   <object objectType="Table" objectID="4E3ED6D7-0DDC-EB84-DDF4-542B7866E020" name="volume" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="95880248-6360-42C2-A3AD-1B332BC8327A" name="movimentacao_volume_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="26CFE386-2108-AA8F-5817-FAE1303248F8" name="TABLE_9_genero_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="88905CCA-1FEA-B36C-6DEA-6EDA343CEF87" name="livro_autor_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4D335E9E-6012-EE5E-048D-D81D784A8CEE" name="livro_editora_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="74D6E761-1851-F2E2-A301-9016A7E7CE28" name="livro_genero_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="584EFA96-F91E-EA60-EBFC-E288D0D9328F" name="movimentacao_usuario_pessoa_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="64852597-A636-DA00-FD6F-D592D71CB56E" name="preferencias_usuario_pessoa_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1AE3FF72-BE9B-DE40-B1C4-43D0D5484475" name="reservaLivro_usuario_pessoa_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C4E77FC7-23FE-9CB5-48B4-5EED1C6266FF" name="reservaLivro_volume_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4C8488F4-B464-C51E-0B5F-F5CE3EFFDF3B" name="volume_livro_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
