@@ -6,3 +6,5 @@
 *.ear
 /TrabalhoBiblioteca/nbproject/private/
 /TrabalhoBiblioteca/nbproject/
+/TrabalhoBiblioteca/build/
+/TrabalhoBiblioteca/usuario.xml
