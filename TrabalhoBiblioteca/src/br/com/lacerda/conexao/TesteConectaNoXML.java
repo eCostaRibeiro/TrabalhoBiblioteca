@@ -24,16 +24,16 @@ public class TesteConectaNoXML {
     public static void main(String[] args) throws SQLException, IllegalAccessException, ClassNotFoundException, Exception {
         UsuarioOracle usuario;
         
-//        UsaXML xml = new UsaXML();
-//        
-//        
-//        
-//        //apenas na primeira vez
-////       UsuarioOracle iniciaUsuario = new UsuarioOracle("jdbc:oracle:thin:@192.168.0.235:1521/orcl", "futebol", "futebol");
-////        xml.gravaXML(iniciaUsuario);
-//        
-//        
-//        usuario = xml.leituraXML();     
+        UsaXML xml = new UsaXML();
+        
+        
+        
+        //apenas na primeira vez
+        UsuarioOracle iniciaUsuario = new UsuarioOracle("jdbc:oracle:thin:@192.168.0.127:1521/orcl", "biblioteca", "biblioteca"); //TEM QUE MUDAR APENAS O ENDEREÇO DO BANCO DE DADOS
+        xml.gravaXML(iniciaUsuario);
+        
+        
+        usuario = xml.leituraXML();     
         
         
         try(Connection dbConecta = new ConexaoOracle().getConnection()){
