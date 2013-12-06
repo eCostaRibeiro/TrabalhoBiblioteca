@@ -11,7 +11,7 @@ import java.io.Serializable;
  * @author Rafael
  */
 public class AutorModel implements Serializable {
-
+    
     private String nome_autor;
 
     public String getNome_autor() {

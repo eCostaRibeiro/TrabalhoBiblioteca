@@ -788,7 +788,7 @@
 <XPD:ATTR name="Left" type="integer">592</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">320</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">155</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">69</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">82</XPD:ATTR>
 <XPD:REF name="Model">aZJgt3AAdkuIyaA2RMvQ9AAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="8t91ITwPBk6OlF+hGaXJBAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="49otWr+2DkGAHoGsCduFlwAA">
@@ -900,7 +900,7 @@
 <XPD:OBJ name="OwnedViews[19]" type="UMLAssociationClassView" guid="oYB/q1WLQUCIGJPDSvs52AAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">789,424;727,388</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">789,424;746,401</XPD:ATTR>
 <XPD:REF name="Model">EH3gj7S2AE245Z0XnVCeIQAA</XPD:REF>
 <XPD:REF name="Head">caZZzhnwLE6/GNg1anOySQAA</XPD:REF>
 <XPD:REF name="Tail">ZUWtjTRG00ienRB7bCevygAA</XPD:REF>
@@ -7884,12 +7884,16 @@
 <XPD:ATTR name="#Associations" type="integer">2</XPD:ATTR>
 <XPD:REF name="Associations[0]">/8RdeoQ4ykqxNaKOa3JTqQAA</XPD:REF>
 <XPD:REF name="Associations[1]">cpssKsTlRkOCLWHifMo2fQAA</XPD:REF>
-<XPD:ATTR name="#Attributes" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="TxCm4oi5C0uAvlHBHY8rJAAA">
+<XPD:ATTR name="#Attributes" type="integer">3</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="T/lDVGHrcU+g9sxjInI6VQAA">
+<XPD:ATTR name="Name" type="string">id_reserva</XPD:ATTR>
+<XPD:REF name="Owner">aZJgt3AAdkuIyaA2RMvQ9AAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="TxCm4oi5C0uAvlHBHY8rJAAA">
 <XPD:ATTR name="Name" type="string">data_reserva</XPD:ATTR>
 <XPD:REF name="Owner">aZJgt3AAdkuIyaA2RMvQ9AAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="W5WT5aQ+UUqmnK7Cgs6Z3gAA">
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="W5WT5aQ+UUqmnK7Cgs6Z3gAA">
 <XPD:ATTR name="Name" type="string">data_cancelamento_reserva</XPD:ATTR>
 <XPD:REF name="Owner">aZJgt3AAdkuIyaA2RMvQ9AAA</XPD:REF>
 </XPD:OBJ>

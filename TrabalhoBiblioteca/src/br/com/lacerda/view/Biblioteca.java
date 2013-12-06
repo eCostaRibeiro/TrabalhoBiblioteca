@@ -61,10 +61,20 @@ public class Biblioteca extends javax.swing.JFrame {
 
         consLivro.setMnemonic('t');
         consLivro.setText("Livro");
+        consLivro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                consLivroActionPerformed(evt);
+            }
+        });
         consultasMenu.add(consLivro);
 
         consAutor.setMnemonic('y');
         consAutor.setText("Autor");
+        consAutor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                consAutorActionPerformed(evt);
+            }
+        });
         consultasMenu.add(consAutor);
 
         consGenero.setMnemonic('p');
@@ -110,6 +120,11 @@ public class Biblioteca extends javax.swing.JFrame {
 
         cadAutor.setMnemonic('s');
         cadAutor.setText("Autor");
+        cadAutor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cadAutorActionPerformed(evt);
+            }
+        });
         cadastrosMenu.add(cadAutor);
 
         cadGenero.setMnemonic('a');
@@ -182,6 +197,42 @@ public class Biblioteca extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, ex.toString());
         }
     }//GEN-LAST:event_cadLivroActionPerformed
+
+    private void consLivroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consLivroActionPerformed
+        consLivro tela;
+        
+        try{
+            tela = new consLivro(this.desktopPane);
+            this.desktopPane.add(tela);
+            tela.show();
+        }catch (Exception ex) {
+            JOptionPane.showMessageDialog(this, ex.toString());
+        }
+    }//GEN-LAST:event_consLivroActionPerformed
+
+    private void consAutorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consAutorActionPerformed
+        consAutor tela;
+        
+        try{
+            tela = new consAutor(this.desktopPane);
+            this.desktopPane.add(tela);
+            tela.show();
+        }catch (Exception ex) {
+            JOptionPane.showMessageDialog(this, ex.toString());
+        }
+    }//GEN-LAST:event_consAutorActionPerformed
+
+    private void cadAutorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cadAutorActionPerformed
+        cadAutor tela;
+        
+        try{
+            tela = new cadAutor(this.desktopPane);
+            this.desktopPane.add(tela);
+            tela.show();
+        }catch (Exception ex) {
+            JOptionPane.showMessageDialog(this, ex.toString());
+        }
+    }//GEN-LAST:event_cadAutorActionPerformed
 
     /**
      * @param args the command line arguments

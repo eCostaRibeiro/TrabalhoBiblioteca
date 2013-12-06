@@ -4,7 +4,6 @@
  */
 package br.com.lacerda.view;
 
-import java.sql.SQLException;
 import javax.swing.JDesktopPane;
 import javax.swing.JOptionPane;
 
@@ -17,6 +16,7 @@ public class cadLivro extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form cadLivro
+     * @param desktop
      */
     public cadLivro(JDesktopPane desktop) {
         initComponents();
