@@ -19,6 +19,7 @@ public class LivroModel implements Serializable {
     private String ISBN;
     private AutorModel autorModel;
     private GeneroModel generoModel;
+    private EditoraModel editoraModel;
 
     /**
      * @return the id_livro
@@ -105,4 +106,14 @@ public class LivroModel implements Serializable {
     public void setGeneroModel(GeneroModel generoModel) {
         this.generoModel = generoModel;
     }
+
+    public EditoraModel getEditoraModel() {
+        return editoraModel;
+    }
+
+    public void setEditoraModel(EditoraModel editoraModel) {
+        this.editoraModel = editoraModel;
+    }
+    
+    
 }

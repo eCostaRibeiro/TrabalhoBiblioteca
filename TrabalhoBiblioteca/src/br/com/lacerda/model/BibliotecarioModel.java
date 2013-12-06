@@ -14,7 +14,7 @@ public class BibliotecarioModel extends PessoaModel implements Serializable {
 
     private String data_admissao;
     private String CRB;
-    private int salario;
+    private float salario;
 
     /**
      * @return the data_admissao
@@ -47,14 +47,14 @@ public class BibliotecarioModel extends PessoaModel implements Serializable {
     /**
      * @return the salario
      */
-    public int getSalario() {
+    public float getSalario() {
         return salario;
     }
 
     /**
      * @param salario the salario to set
      */
-    public void setSalario(int salario) {
+    public void setSalario(float salario) {
         this.salario = salario;
     }
 }

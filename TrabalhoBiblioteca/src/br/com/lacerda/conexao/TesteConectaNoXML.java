@@ -29,7 +29,7 @@ public class TesteConectaNoXML {
         
         
         //apenas na primeira vez
-        UsuarioOracle iniciaUsuario = new UsuarioOracle("jdbc:oracle:thin:@192.168.0.127:1521/orcl", "biblioteca", "biblioteca"); //TEM QUE MUDAR APENAS O ENDEREÇO DO BANCO DE DADOS
+        UsuarioOracle iniciaUsuario = new UsuarioOracle("jdbc:oracle:thin:@192.168.0.158:1521/xe", "biblioteca", "biblioteca"); //TEM QUE MUDAR APENAS O ENDEREÇO DO BANCO DE DADOS
         xml.gravaXML(iniciaUsuario);
         
         
