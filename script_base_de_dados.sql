@@ -72,7 +72,7 @@ CREATE TABLE biblioteca.livro
     id_livro     NUMBER NOT NULL ,
     titulo_livro VARCHAR2 (50) ,
     edicao       VARCHAR2 (15) ,
-    data_edicao  VARCHAR2 ,
+    data_edicao  VARCHAR2 (8),
     ISBN         VARCHAR2 (13) ,
     id_autor     NUMBER NOT NULL ,
     id_editora   NUMBER NOT NULL ,
